@@ -1,14 +1,25 @@
 {
   "name" : "tarantula",
-  "description" : "Easier web scraping using cheerio.",
+  "description" : "nodejs crawler/spider which provides a simple interface for crawling the Web",
   "version" : "0.0.1",
   "author" : "George Politis <gp@superpointer.com>",
   "engines" : ["node"],
-  "directories" : { "lib" : "./lib" },
+  "directories" : { 
+    "lib" : "./lib" 
+  },
   "main" : "./lib/tarantula",
   "repository" : { "type":"git", "url":"https://github.com/gpolitis/node-tarantula.git" },
+  "licenses" : [ { "type" : "MIT"
+      , "url" : "http://github.com/gpolitis/node-tarantula/raw/master/LICENSE"
+    }
+  ],
   "dependencies" : {
-    "request" : ">=0.10.0",
-    "cheerio" : ">=0.9.0"
-  }
+    "request" : "",
+    "cheerio" : "",
+    "async": ""
+  },
+  "keywords": [
+    "spider",
+    "crawler"
+  ]
 }
