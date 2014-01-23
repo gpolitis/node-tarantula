@@ -17,7 +17,17 @@ var brain = {
         console.log(request.uri);
     },
 
-    debug: false
+    log: function (msg) {
+        console.log(msg);
+    },
+
+    error: function (err, req, resp) {
+        if (resp && resp.statusCode == 404) {
+            console.info('URL ' + req.uri + ' not found (404)');
+        } else {
+            console.error(err, req, resp);
+        }
+    },
 };
 
 var tarantula = new Tarantula(brain);
