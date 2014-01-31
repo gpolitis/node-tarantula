@@ -7,7 +7,7 @@ nodejs crawler/spider which provides a simple interface for crawling the Web. It
 ```js
 var brain = {
 
-    leg: 8,
+    legs: 8,
 
     shouldVisit: function(uri) {
         return true;
@@ -17,7 +17,7 @@ var brain = {
 
 var tarantula = new Tarantula(brain);
 
-tarantula.on('visit', function (uri, req, resp) {
+tarantula.on('data', function (uri) {
 	  console.info('200', uri);
 });
 
