@@ -1,8 +1,12 @@
 {
   "name": "tarantula",
   "description": "nodejs crawler/spider which provides a simple interface for crawling the Web",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "author": "George Politis <gp@superpointer.com>",
+  "contributors": [
+    "Rob Colburn <rob@robcolburn.com> (http://robcolburn.com)",
+    "Daniel Senff (http://www.danielsenff.de)"
+  ],
   "engines": [
     "node"
   ],
@@ -23,11 +27,14 @@
   "dependencies": {
     "request": "",
     "cheerio": "",
-    "async": "",
-    "lodash": "~2.4.1"
+    "lodash": "^2.4.1",
+    "node-phantom-simple": "^1.0.16"
   },
   "keywords": [
     "spider",
-    "crawler"
+    "crawler",
+    "scraper",
+    "phantom",
+    "phantomjs"
   ]
 }
