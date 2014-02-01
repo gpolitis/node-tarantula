@@ -3,7 +3,8 @@ var Tarantula = require('./lib/tarantula.js');
 
 var site = 'http://en.wikipedia.org/';
 var tarantula = new Tarantula({
-	legs: 10,
+	leg: 'PhantomJS',
+	legs: 2,
 	stayInRange: true,
 });
 tarantula.on('request', function (task) {
