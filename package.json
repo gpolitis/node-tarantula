@@ -1,7 +1,7 @@
 {
   "name": "tarantula",
   "description": "nodejs crawler/spider which provides a simple interface for crawling the Web",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "George Politis <gp@superpointer.com>",
   "contributors": [
     "Rob Colburn <rob@robcolburn.com> (http://robcolburn.com)",
@@ -18,6 +18,7 @@
     "type": "git",
     "url": "https://github.com/gpolitis/node-tarantula.git"
   },
+  "bugs": "http://github.com/gpolitis/node-tarantula/issues",
   "licenses": [
     {
       "type": "MIT",
