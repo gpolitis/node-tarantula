@@ -18,6 +18,7 @@
     "type": "git",
     "url": "https://github.com/gpolitis/node-tarantula.git"
   },
+  "bugs": "http://github.com/gpolitis/node-tarantula/issues",
   "licenses": [
     {
       "type": "MIT",
