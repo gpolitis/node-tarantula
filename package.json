@@ -26,11 +26,11 @@
     }
   ],
   "dependencies": {
-    "request": "",
-    "cheerio": "",
+    "cheerio": "^0.18.0",
     "lodash": "^2.4.1",
-    "node-phantom-simple": "^1.0.16",
-    "priorityqueuejs": "~0.2.0"
+    "node-phantom-simple": "^1.2.0",
+    "priorityqueuejs": "~0.2.0",
+    "request": ""
   },
   "keywords": [
     "spider",
