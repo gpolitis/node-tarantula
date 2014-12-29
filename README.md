@@ -30,6 +30,6 @@ tarantula.start(["http://stackoverflow.com"]);
 
 ## Phantom Usage
 
-If you would like to use the included [PhantomJS](http://phantomjs.org/) plugin, you'll need to install the PhantomJS app (it is not an npm module).
-1. You can [download PhantomJS](http://code.google.com/p/phantomjs/downloads/list) on their website.
-2. It's also on popular OS Package Managers: `brew install phantomjs`, `apt-get install phantomjs`
+If you would like to use the included [PhantomJS](http://phantomjs.org/) plugin, you'll need to download and install the [PhantomJS](http://code.google.com/p/phantomjs/downloads/list) from their website. It's also on popular OS Package Managers:
+ * `brew install phantomjs`
+ * `apt-get install phantomjs`
