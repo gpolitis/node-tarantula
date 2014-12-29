@@ -21,10 +21,13 @@ tarantula.on('uris', function (task, newCount) {
 		'+' + newCount
 	);
 });
-tarantula.on('error', function (task, errorCode, errorMessage) {
-	console.error(errorCode, task.uri, 'from', task.parent);
-	if (errorCode == 'ERR') {
-		console.error(errorMessage);
+tarantula.on('error', function (task, errorCode, error) {
+	var message = errorCode == 'ERR' ? error : 'ERROR ' + errorCode;
+	if (task.parent) {
+		console.error(message, task.uri, 'from', task.parent);
+	}
+	else {
+		console.error(message, task.uri);
 	}
 });
 tarantula.on('done', function () {
